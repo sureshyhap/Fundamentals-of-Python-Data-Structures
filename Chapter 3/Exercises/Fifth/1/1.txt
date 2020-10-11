@@ -1,0 +1,7 @@
+It partitions an array such that all elements to the left of some pivot position
+is less than or equal to it and all elements to the right of it are greater than
+or equal to it. Then it recursively does the same process on all subarray division.
+
+It is O(N log N) because there will be about O(log N) partitioning steps and for each
+there is a search through the array to find elements that belong before or after the
+pivot which is O(N). So multiplying results in O(N log N).

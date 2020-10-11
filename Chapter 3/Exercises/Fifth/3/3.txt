@@ -1,0 +1,2 @@
+Choose a random value or choose the median of the first, middle, and last elements
+(median of 3 partitioning).

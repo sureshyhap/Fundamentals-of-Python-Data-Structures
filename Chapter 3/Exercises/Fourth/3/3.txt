@@ -1,0 +1,2 @@
+There will be on average (n - 1) / 2 swaps and will iterate n - 1 times.
+So the running time would be on average (n - 1)^2 / 2. This is O(n^2)

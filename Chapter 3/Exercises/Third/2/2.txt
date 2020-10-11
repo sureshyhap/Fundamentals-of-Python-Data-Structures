@@ -1,0 +1,4 @@
+Assuming that there are about the same number of names starting with a letter on average,
+jump to page: (total_pages / 26) * alphabetical_value_of_first_letter (i.e. A == 0, B == 1, ...)
+
+If you do it for each letter of the word and subdivide, the running time should be O(log_26 N)

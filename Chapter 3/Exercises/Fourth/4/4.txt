@@ -1,0 +1,1 @@
+Because very little shifting over to make space for the right element occurs.

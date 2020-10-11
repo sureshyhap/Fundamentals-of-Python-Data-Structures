@@ -1,0 +1,2 @@
+It divides the problem log(N) times and each merge step requires a linear pass
+through the elements to be merged. So its worst-case complexity is O(N log N).

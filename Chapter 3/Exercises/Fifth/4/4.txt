@@ -1,0 +1,3 @@
+It is a great idea because insertion sort's O(N ^ 2) complexity
+doesn't matter for small N like 30. It may be faster than quicksort
+here because it lacks the recursive overhead.
