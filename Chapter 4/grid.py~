@@ -1,0 +1,6 @@
+from arrays import Array
+
+class Grid(object):
+
+    def __init__(self, rows, columns, fill_value=None):
+        

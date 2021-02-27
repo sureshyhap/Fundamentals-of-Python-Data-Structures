@@ -1,0 +1,5 @@
+class Array(object):
+    def __init__(self, capacity, fill_value=None):
+        self.items = []
+        for count in capacity:
+            self.items.append(fill_value)
