@@ -1,0 +1,1 @@
+It uses the first memory location plus the offset to find an element. It is so fast because this is a simple addition operation

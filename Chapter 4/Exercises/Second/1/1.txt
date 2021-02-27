@@ -1,0 +1,1 @@
+If it is inserted somewhere in the middle or beginning of the array, to make space elements must be shifted. If it is deleted somewhere in the middle or beginning of the array, items must be shifted to close the gap

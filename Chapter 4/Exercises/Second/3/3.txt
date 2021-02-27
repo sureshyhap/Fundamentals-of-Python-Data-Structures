@@ -1,0 +1,2 @@
+The best case is constant. The average case is constant. The worst case is linear if the logical size was equal to the physical size and thus resizing is necessary.
+
