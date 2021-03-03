@@ -1,0 +1,6 @@
+class Ragged_Grid():
+
+    def __init__(self, rows, columns_list, fill_value=None):
+        self.data = Array(rows)
+        
+        

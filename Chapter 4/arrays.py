@@ -22,3 +22,4 @@ class Array(object):
 
     def __setitem__(self, index, new_item):
         self.items[index] = new_item
+

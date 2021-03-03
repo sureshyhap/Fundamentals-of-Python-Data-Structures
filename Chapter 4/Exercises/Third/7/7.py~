@@ -1,0 +1,19 @@
+import sys
+sys.path.insert(0, "../../..")
+from arrays import Array
+from grid import Grid
+from three_d_matrix import ThreeDMatrix
+
+if __name__ == "__main__":
+    threedm = ThreeDMatrix(2, 3, 4)
+    for d in range(threedm.get_depth()):
+        for h in range(threedm.get_height()):
+            for w in range(threedm.get_width()):
+                #((threedm[d])[h])[w] = (str(d) + str(h) + str(w))
+                threedm.__getitem__(d).__getitem__(h).__setitem__(w, (str(d) + str(h) + str(w)))
+
+                
+
+    print(threedm)
+                
+
