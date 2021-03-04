@@ -1,0 +1,1 @@
+You get an AttributeError. You can guard against it by checking if it is not None
