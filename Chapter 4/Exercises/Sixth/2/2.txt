@@ -1,0 +1,1 @@
+A benefit is that you can go to the previous node (backwards). One disadvantage is that it costs an extra linear amount of memory to store the extra pointers 

@@ -78,3 +78,5 @@ class Array(object):
         self.logical_size -= 1
         self.shrink()
         return element
+
+    def __eq__(self, other)

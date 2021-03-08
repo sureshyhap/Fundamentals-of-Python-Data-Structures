@@ -1,0 +1,1 @@
+b. Data structuresa. Is fixed in size after it is created

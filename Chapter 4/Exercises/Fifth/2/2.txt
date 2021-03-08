@@ -1,0 +1,1 @@
+No because if the item is in the left half you need to set high to mid - 1 but you can't access mid - 1 in constant time because there is no back link

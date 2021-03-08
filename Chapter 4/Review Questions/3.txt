@@ -1,0 +1,1 @@
+a. Constant time access to data

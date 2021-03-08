@@ -1,0 +1,1 @@
+b. Has twice as many positions as the old array
