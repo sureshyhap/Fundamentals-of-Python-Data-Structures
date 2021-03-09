@@ -78,3 +78,24 @@ class Array(object):
         self.logical_size -= 1
         self.shrink()
         return element
+
+    def __eq__(self, other):
+        if isinstance(other, Array) and self.size() == other.size():
+            for i in range(self.logical_size):
+                if self[i] != other[i]:
+                    return False
+            return True
+        else:
+            return False
+
+    def __add__(self, other):
+        if self.size() != other.size():
+            return
+        sum = Array(self.size())
+        for i in range(self.size()):
+            print(i)
+            sum[i] = (self.items[i] + other.items[i])
+        return sum
+                    
+                
+            

@@ -1,0 +1,1 @@
+It's good because Array can be iterated by specifying an index without need for a special __iter__ function
