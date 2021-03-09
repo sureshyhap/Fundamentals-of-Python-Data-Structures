@@ -1,6 +1,7 @@
 class Array(object):
     
     def __init__(self, capacity, fill_value=None):
+        """ Data members are self.items, self.logical_size """
         self.items = []
         for count in range(capacity):
             self.items.append(fill_value)
@@ -50,11 +51,11 @@ class Array(object):
         self.items = items2
 
     def shrink(self):
-        if self.size() >= (len(self) / 2):
+        if self.size() >= (len(self) // 2):
             return
         items2 = []
-        for i in range(len(self) / 2):
-            items2 = self.items[i]
+        for i in range(len(self) // 2):
+            items2.append(self.items[i])
         self.items = items2
 
     def insert(self, index, item):
@@ -75,6 +76,7 @@ class Array(object):
         element = self.items[index]
         for i in range(index, self.size() - 1):
             self.items[i] = self.items[i + 1]
+        self.items[self.logical_size - 1] = None
         self.logical_size -= 1
         self.shrink()
         return element
