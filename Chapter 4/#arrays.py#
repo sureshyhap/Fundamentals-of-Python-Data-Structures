@@ -106,13 +106,8 @@ class Array(object):
             sum[i] = (self.items[i] - other.items[i])
         return sum
    
-    def __mul__(self, other):
+    def __mult__(self, other):
         """ The dot product not element-wise multiplication """
-        if self.size() != other.size():
-            return
-        result = 0
-        for i in range(self.size()):
-            result += (self[i] * other[i])
-        return result
-        
+        result = None
+        for i in range(self.size())
             
