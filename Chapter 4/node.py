@@ -17,13 +17,30 @@ def length(linked_list):
         temp = temp.next
     return l
 
-
-##########################
 def insert(position, item, linked_list):
+    if position == 0:
+        return Node(item, linked_list)
+    if position > length(linked_list):
+        position = length(linked_list)
     temp = linked_list
-    for i in range(position):
+    for i in range(position - 1):
         temp = temp.next
-    return Node(item, temp)
-############################33
-
+    temp.next = Node(item, temp.next)
+    return linked_list
+    
+def pop(position, linked_list):
+    if position < 0 or position >= length(linked_list):
+        return (None, None)    
+    if linked_list == None:
+        return (None, None)
+    if length(linked_list) == 1:
+        return (None, linked_list.data)
+    if position == 0:
+        return (linked_list.next, linked_list.data)
+    temp = linked_list
+    for i in range(position - 1):
+        temp = temp.next
+    d = temp.next.data
+    temp.next = temp.next.next
+    return (linked_list, d)
     

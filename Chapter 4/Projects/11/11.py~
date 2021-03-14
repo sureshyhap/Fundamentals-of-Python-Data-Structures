@@ -1,0 +1,4 @@
+import sys
+sys.path.insert("../..")
+from node import Node, TwoWayNode
+
